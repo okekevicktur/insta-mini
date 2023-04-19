@@ -7,11 +7,15 @@ import Gallery from "./components/Gallery";
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-      <Bio />
-      <Gallery />
-    </div>
+    <>
+      <div className="App">
+        <Nav />
+        <div className="container">
+          <Bio />
+          <Gallery />
+        </div>
+      </div>
+    </>
   );
 }
 

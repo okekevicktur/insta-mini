@@ -16,7 +16,7 @@ const Gallery = () => {
   return (
     <>
       <input type="file" name="photo" id="addPhotoInput" />
-      <label htmlFor="addPhotoInput" onClick={addPhoto}>
+      <label htmlFor="addPhotoInput" onClick={addPhoto} className="back">
         <i className="add-photo-button fas fa-plus-square"></i>
       </label>
 
