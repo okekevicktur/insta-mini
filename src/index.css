@@ -177,7 +177,7 @@ input {
   border: 2px white solid;
 }
 
-@media screen and (min-width: 320px) and (max-width: 600px) {
+@media screen and (min-width: 320px) and (max-width: 690px) {
   .iconWrapper {
     /* background-color: red; */
     /* width: 30%; */
